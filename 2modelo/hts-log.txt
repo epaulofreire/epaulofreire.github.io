@@ -1,0 +1,27 @@
+HTTrack3.49-2+libhtsjava.so.2 launched on Sun, 08 Jan 2023 22:07:25 at http://89.116.225.202:8000 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://89.116.225.202:8000 -O "/home/jackson/websites/epf2" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:08:19	Error: 	"Not Found" (404) at link fonts.googleapis.com/ (from 89.116.225.202:8000/)
+22:08:45	Warning: 	Moved Permanently for 89.116.225.202:8000/?p=9
+22:08:45	Warning: 	File has moved from 89.116.225.202:8000/?p=9 to http://89.116.225.202:8000/?page_id=9
+22:08:48	Warning: 	Note: due to 1.gravatar.com remote robots.txt rules, links beginning with these path will be forbidden: /*.json, /*.xml, /*.php, /*.vcf, /*.qr, /accounts/activate/*, /accounts/force-by-email/*, /account/ (see in the options to disable this)
+22:08:51	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): 89.116.225.202:8000/index.php?rest_route=/
+22:10:05	Warning: 	HTML file (5433 bytes) retransferred due to lack of cache: 89.116.225.202:8000/?feed=rss2&author=1
+22:10:07	Warning: 	HTML file (1652 bytes) retransferred due to lack of cache: 89.116.225.202:8000/?feed=rss2&p=1
+22:10:08	Warning: 	HTML file (764 bytes) retransferred due to lack of cache: 89.116.225.202:8000/?feed=rss2&p=31
+22:10:13	Warning: 	HTML file (38948 bytes) retransferred due to lack of cache: 89.116.225.202:8000/?page_id=2
+22:10:14	Warning: 	HTML file (760 bytes) retransferred due to lack of cache: 89.116.225.202:8000/?feed=rss2&p=26
+22:10:17	Warning: 	HTML file (39202 bytes) retransferred due to lack of cache: 89.116.225.202:8000/?author=1
+22:10:35	Warning: 	HTML file (779 bytes) retransferred due to lack of cache: 89.116.225.202:8000/?p=9
+22:10:38	Warning: 	Moved Permanently for 89.116.225.202:8000/?p=9
+22:10:38	Warning: 	File has moved from 89.116.225.202:8000/?p=9 to http://89.116.225.202:8000/?page_id=9
+22:10:45	Warning: 	Note: due to 1.gravatar.com remote robots.txt rules, links beginning with these path will be forbidden: /*.json, /*.xml, /*.php, /*.vcf, /*.qr, /accounts/activate/*, /accounts/force-by-email/*, /account/ (see in the options to disable this)
+22:10:47	Error: 	"Not Found" (404) at link 89.116.225.202:8000/wp-content/themes/lms-education/css/owl.video.play.png (from 89.116.225.202:8000/wp-content/themes/lms-education/css/owl.carousel.css?ver=2.3.4)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 22 seconds : 92 links scanned, 93 files written (4369844 bytes overall) [3722341 bytes received at 18427 bytes/sec], 927996 bytes transferred using HTTP compression in 38 files, ratio 23%, 2.6 requests per connection
+(2 errors, 14 warnings, 0 messages)
